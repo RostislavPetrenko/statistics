@@ -21,7 +21,9 @@ public class FileWriter {
 	
 	public void writeIntoOutPutFile(){
 	writer.write(oddDays);
+	writer.write("\n");
 	writer.write(evenDays);
+	writer.write("\n");
 	writer.write(answer);
 	writer.flush();
 	}

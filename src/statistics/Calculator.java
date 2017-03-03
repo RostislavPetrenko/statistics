@@ -3,8 +3,8 @@ package statistics;
 public class Calculator {
 	private int[] array;
 	private String answer;
-	private String odd;
-	private String even;
+	private String odd = "";
+	private String even = "";
 	private int oddNumCounter = 0;
 	private int evenNumCounter = 0;
 
@@ -12,6 +12,8 @@ public class Calculator {
 		this.array = array;
 		gettingEvenOddnums();
 		gettingAnswer();
+		System.out.println(gettingAnswer());
+		System.out.println(odd + " " + "\n" + even + " ");
 	}
 
 	private void gettingEvenOddnums() {
