@@ -1,4 +1,4 @@
-package statistics;
+package hometask;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -21,7 +21,6 @@ public class FileReader {
 		while(scan.hasNext()){
 			array[i++] = scan.nextInt();	
 		}
-		
 		scan.close();
 	}
 	
